@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(:version => 20130605183302) do
   create_table "recipe_ingredients", :id => false, :force => true do |t|
     t.integer  "recipe_id"
     t.integer  "ingredient_id"
+    t.integer  "unit_id"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
   end
