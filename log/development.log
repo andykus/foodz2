@@ -3412,3 +3412,760 @@ Connecting to database specified by database.yml
   [1m[35m (9.0ms)[0m  BEGIN
   [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:37:47', 'Mööölk', '2013-06-14 18:37:47')[0m
   [1m[35m (7.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:47:06', 'g', '2013-06-14 18:47:06')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:47:06', 'dl', '2013-06-14 18:47:06')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:47:06', 'st', '2013-06-14 18:47:06')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:47:06', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:47:06')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (7.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:47:07', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:47:07')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:47:07', 'Mööölk', '2013-06-14 18:47:07')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'g', '2013-06-14 18:48:14')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (15.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'dl', '2013-06-14 18:48:14')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'st', '2013-06-14 18:48:14')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (7.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:48:14')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:48:14')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:48:14', 'Mööölk', '2013-06-14 18:48:14')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (18.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (26.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'g', '2013-06-14 18:49:43')
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'dl', '2013-06-14 18:49:43')[0m
+  [1m[35m (34.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'st', '2013-06-14 18:49:43')
+  [1m[36m (25.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:49:43')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (31.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:49:43')[0m
+  [1m[35m (13.0ms)[0m  COMMIT
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (17.0ms)[0m  BEGIN
+  [1m[36mSQL (26.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:49:43', 'Mööölk', '2013-06-14 18:49:43')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'g', '2013-06-14 18:53:53')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (7.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'dl', '2013-06-14 18:53:53')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (7.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'st', '2013-06-14 18:53:53')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:53:53')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:53:53')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:53:53', 'Mööölk', '2013-06-14 18:53:53')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mSELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 16[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (10.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'g', '2013-06-14 18:56:07')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'dl', '2013-06-14 18:56:07')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (11.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'st', '2013-06-14 18:56:07')
+  [1m[36m (12.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:56:07')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:56:07')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'Mööölk', '2013-06-14 18:56:07')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mSELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 18[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 31 LIMIT 1
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 18[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:56:07', 31, 18, NULL, '2013-06-14 18:56:07')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (7.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'flour', '2013-06-14 18:56:07')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (31, 32)
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:56:07', 32, 18, NULL, '2013-06-14 18:56:07')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:56:07', 'morot', '2013-06-14 18:56:07')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (10.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (31, 32, 33)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:56:07', 33, 18, NULL, '2013-06-14 18:56:07')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:57:37', 'g', '2013-06-14 18:57:37')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:57:37', 'dl', '2013-06-14 18:57:37')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (18.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 18:57:37', 'st', '2013-06-14 18:57:37')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:57:38', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 18:57:38')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 18:57:38', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 18:57:38')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:57:38', 'Mööölk', '2013-06-14 18:57:38')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mSELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 20[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 34 LIMIT 1
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 20[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:57:38', 34, 20, NULL, '2013-06-14 18:57:38')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:57:38', 'flour', '2013-06-14 18:57:38')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (34, 35)
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:57:38', 35, 20, NULL, '2013-06-14 18:57:38')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 18:57:38', 'morot', '2013-06-14 18:57:38')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (34, 35, 36)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 18:57:38', 36, 20, NULL, '2013-06-14 18:57:38')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'g', '2013-06-14 19:02:34')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'dl', '2013-06-14 19:02:34')[0m
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'st', '2013-06-14 19:02:34')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:02:34')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:02:34')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:02:34', 'Mööölk', '2013-06-14 19:02:34')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 22
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 37 LIMIT 1[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 22
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:02:35', 37, 22, NULL, '2013-06-14 19:02:35')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:02:35', 'flour', '2013-06-14 19:02:35')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (37, 38)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:02:35', 38, 22, NULL, '2013-06-14 19:02:35')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:02:35', 'morot', '2013-06-14 19:02:35')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (37, 38, 39)
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:02:35', 39, 22, NULL, '2013-06-14 19:02:35')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:04:14', 'g', '2013-06-14 19:04:14')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:04:14', 'dl', '2013-06-14 19:04:14')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:04:14', 'st', '2013-06-14 19:04:14')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:09:59', 'g', '2013-06-14 19:09:59')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:09:59', 'dl', '2013-06-14 19:09:59')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:09:59', 'st', '2013-06-14 19:09:59')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:11:16', 'g', '2013-06-14 19:11:16')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:11:16', 'dl', '2013-06-14 19:11:16')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:11:17', 'st', '2013-06-14 19:11:17')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 22 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes` WHERE `recipes`.`id` = 22
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'g', '2013-06-14 19:12:12')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'dl', '2013-06-14 19:12:12')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'st', '2013-06-14 19:12:12')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipes`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:12:12')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:12:12')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `ingredients`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:12:12', 'Mööölk', '2013-06-14 19:12:12')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mSELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 24[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 40 LIMIT 1
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 24[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:12:12', 40, 24, NULL, '2013-06-14 19:12:12')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:12:13', 'flour', '2013-06-14 19:12:13')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (40, 41)
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:12:13', 41, 24, NULL, '2013-06-14 19:12:13')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (7.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:12:13', 'morot', '2013-06-14 19:12:13')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (40, 41, 42)[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:12:13', 42, 24, NULL, '2013-06-14 19:12:13')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (10.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:59', 'g', '2013-06-14 19:12:59')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:59', 'dl', '2013-06-14 19:12:59')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:12:59', 'st', '2013-06-14 19:12:59')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 24 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes` WHERE `recipes`.`id` = 24
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'g', '2013-06-14 19:15:10')
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'dl', '2013-06-14 19:15:10')[0m
+  [1m[35m (10.0ms)[0m  COMMIT
+  [1m[36m (10.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'st', '2013-06-14 19:15:10')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:15:10')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:15:10')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'Mööölk', '2013-06-14 19:15:10')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 26
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 43 LIMIT 1[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 26
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:15:10', 43, 26, NULL, '2013-06-14 19:15:10')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (10.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'flour', '2013-06-14 19:15:10')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (43, 44)[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:15:10', 44, 26, NULL, '2013-06-14 19:15:10')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:15:10', 'morot', '2013-06-14 19:15:10')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (43, 44, 45)
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:15:11', 45, 26, NULL, '2013-06-14 19:15:11')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:40', 'g', '2013-06-14 19:15:40')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:40', 'dl', '2013-06-14 19:15:40')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:15:40', 'st', '2013-06-14 19:15:40')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (10.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 26 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mRecipeIngredient Load (10.0ms)[0m  SELECT `recipe_ingredients`.* FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 26
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL[0m
+Mysql2::Error: Unknown column 'recipe_ingredients.' in 'where clause': DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+  [1m[35m (8.0ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:17:02', 'g', '2013-06-14 19:17:02')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:17:02', 'dl', '2013-06-14 19:17:02')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:17:02', 'st', '2013-06-14 19:17:02')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (10.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 26 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipes` WHERE `recipes`.`id` = 26
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (10.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:16', 'g', '2013-06-14 19:22:16')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:16', 'dl', '2013-06-14 19:22:16')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:16', 'st', '2013-06-14 19:22:16')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 26 LIMIT 1
+Connecting to database specified by database.yml
+  [1m[36m (10.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'g', '2013-06-14 19:22:45')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'dl', '2013-06-14 19:22:45')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'st', '2013-06-14 19:22:45')
+  [1m[36m (10.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:22:45')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:22:45')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:22:45', 'Mööölk', '2013-06-14 19:22:45')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 28
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 46 LIMIT 1[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 28
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:22:46', 46, 28, NULL, '2013-06-14 19:22:46')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:22:46', 'flour', '2013-06-14 19:22:46')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (46, 47)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (7.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:22:46', 47, 28, NULL, '2013-06-14 19:22:46')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:22:46', 'morot', '2013-06-14 19:22:46')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (46, 47, 48)
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:22:46', 48, 28, NULL, '2013-06-14 19:22:46')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:08', 'g', '2013-06-14 19:23:08')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:08', 'dl', '2013-06-14 19:23:08')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:08', 'st', '2013-06-14 19:23:08')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 26 LIMIT 1
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:20', 'g', '2013-06-14 19:23:20')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:20', 'dl', '2013-06-14 19:23:20')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:23:20', 'st', '2013-06-14 19:23:20')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (8.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 28 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipes` WHERE `recipes`.`id` = 28
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'g', '2013-06-14 19:25:18')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'dl', '2013-06-14 19:25:18')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'st', '2013-06-14 19:25:18')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:25:18')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:25:18')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'Mööölk', '2013-06-14 19:25:18')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (10.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 49 LIMIT 1[0m
+  [1m[35mIngredient Load (8.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:25:18', 49, 30, NULL, '2013-06-14 19:25:18')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'flour', '2013-06-14 19:25:18')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (49, 50)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:25:18', 50, 30, NULL, '2013-06-14 19:25:18')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:25:18', 'morot', '2013-06-14 19:25:18')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (8.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (49, 50, 51)
+  [1m[36m (7.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:25:18', 51, 30, NULL, '2013-06-14 19:25:18')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:07', 'g', '2013-06-14 19:26:07')
+  [1m[36m (7.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:07', 'dl', '2013-06-14 19:26:07')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:07', 'st', '2013-06-14 19:26:07')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 30 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36mRecipeIngredient Load (9.0ms)[0m  [1mSELECT `recipe_ingredients`.* FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 30 AND `recipe_ingredients`.`ingredient_id` IN (49, 50, 51)[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+Mysql2::Error: Unknown column 'recipe_ingredients.' in 'where clause': DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+  [1m[36m (8.0ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (10.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:45', 'g', '2013-06-14 19:26:45')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:45', 'dl', '2013-06-14 19:26:45')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:26:45', 'st', '2013-06-14 19:26:45')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 30 LIMIT 1
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36mRecipeIngredient Load (9.0ms)[0m  [1mSELECT `recipe_ingredients`.* FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 30 AND `recipe_ingredients`.`ingredient_id` IN (49, 50, 51)[0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+Mysql2::Error: Unknown column 'recipe_ingredients.' in 'where clause': DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+  [1m[36m (8.0ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (8.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:29:15', 'g', '2013-06-14 19:29:15')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:29:15', 'dl', '2013-06-14 19:29:15')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:29:15', 'st', '2013-06-14 19:29:15')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 30 LIMIT 1
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mRecipeIngredient Load (9.0ms)[0m  SELECT `recipe_ingredients`.* FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL[0m
+Mysql2::Error: Unknown column 'recipe_ingredients.' in 'where clause': DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`` = NULL
+  [1m[35m (9.0ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:34:54', 'g', '2013-06-14 19:34:54')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:34:54', 'dl', '2013-06-14 19:34:54')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:34:54', 'st', '2013-06-14 19:34:54')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (9.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 30 LIMIT 1
+  [1m[36m (7.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 30
+  [1m[36mSQL (9.0ms)[0m  [1mDELETE FROM `recipes` WHERE `recipes`.`id` = 30[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'g', '2013-06-14 19:36:19')
+  [1m[36m (11.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'dl', '2013-06-14 19:36:19')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'st', '2013-06-14 19:36:19')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:36:19')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:36:19')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'Mööölk', '2013-06-14 19:36:19')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 32
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 52 LIMIT 1[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 32
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 52, 32, NULL, '2013-06-14 19:36:19')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 52 LIMIT 1
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 33[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 52, 33, NULL, '2013-06-14 19:36:19')[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 52, 33, NULL, '2013-06-14 19:36:19')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'flour', '2013-06-14 19:36:19')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (52, 53)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 53, 32, NULL, '2013-06-14 19:36:19')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (52, 53)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 53, 33, NULL, '2013-06-14 19:36:19')[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:19', 53, 33, NULL, '2013-06-14 19:36:19')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (7.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:36:19', 'morot', '2013-06-14 19:36:19')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (52, 53, 54)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:20', 54, 32, NULL, '2013-06-14 19:36:20')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (52, 53, 54)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:20', 54, 33, NULL, '2013-06-14 19:36:20')[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:36:20', 54, 33, NULL, '2013-06-14 19:36:20')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:37:16', 'g', '2013-06-14 19:37:16')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:37:16', 'dl', '2013-06-14 19:37:16')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:37:16', 'st', '2013-06-14 19:37:16')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (8.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 32 LIMIT 1
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 32
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes` WHERE `recipes`.`id` = 32[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'g', '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'dl', '2013-06-14 19:39:36')[0m
+  [1m[35m (9.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'st', '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `recipe_ingredients`
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes`[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'Lorem ipsum dolor sit amet.', 225, 25, 'Kaka', '2013-06-14 19:39:36')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipes` (`created_at`, `description`, `temperature`, `time`, `title`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'Lorem ipsum dolor sit amet.', 225, 25, 'Lasagne', '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (8.0ms)[0m  DELETE FROM `ingredients`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'Mööölk', '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  SELECT `ingredients`.id FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 34
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 55 LIMIT 1[0m
+  [1m[35mIngredient Load (8.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 34
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 55, 34, NULL, '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mIngredient Load (9.0ms)[0m  SELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` = 55 LIMIT 1
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` INNER JOIN `recipe_ingredients` ON `ingredients`.`id` = `recipe_ingredients`.`ingredient_id` WHERE `recipe_ingredients`.`recipe_id` = 35[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 55, 35, NULL, '2013-06-14 19:39:36')[0m
+  [1m[35mSQL (9.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 55, 35, NULL, '2013-06-14 19:39:36')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'flour', '2013-06-14 19:39:36')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (55, 56)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 56, 34, NULL, '2013-06-14 19:39:36')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (9.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (55, 56)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 56, 35, NULL, '2013-06-14 19:39:36')[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 56, 35, NULL, '2013-06-14 19:39:36')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (9.0ms)[0m  BEGIN
+  [1m[36mSQL (8.0ms)[0m  [1mINSERT INTO `ingredients` (`created_at`, `ingredient`, `updated_at`) VALUES ('2013-06-14 19:39:36', 'morot', '2013-06-14 19:39:36')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (55, 56, 57)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 57, 34, NULL, '2013-06-14 19:39:36')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36mIngredient Load (8.0ms)[0m  [1mSELECT `ingredients`.* FROM `ingredients` WHERE `ingredients`.`id` IN (55, 56, 57)[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 57, 35, NULL, '2013-06-14 19:39:36')[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `recipe_ingredients` (`created_at`, `ingredient_id`, `recipe_id`, `unit_id`, `updated_at`) VALUES ('2013-06-14 19:39:36', 57, 35, NULL, '2013-06-14 19:39:36')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+  [1m[36m (9.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35mSQL (9.0ms)[0m  DELETE FROM `units`
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:40:02', 'g', '2013-06-14 19:40:02')
+  [1m[36m (8.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (8.0ms)[0m  BEGIN
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:40:02', 'dl', '2013-06-14 19:40:02')[0m
+  [1m[35m (8.0ms)[0m  COMMIT
+  [1m[36m (8.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.0ms)[0m  INSERT INTO `units` (`created_at`, `unit`, `updated_at`) VALUES ('2013-06-14 19:40:02', 'st', '2013-06-14 19:40:02')
+  [1m[36m (9.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mRecipe Load (10.0ms)[0m  SELECT `recipes`.* FROM `recipes` WHERE `recipes`.`id` = 34 LIMIT 1
+  [1m[36m (9.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (11.0ms)[0m  DELETE FROM `recipe_ingredients` WHERE `recipe_ingredients`.`recipe_id` = 34
+  [1m[36mSQL (8.0ms)[0m  [1mDELETE FROM `recipes` WHERE `recipes`.`id` = 34[0m
+  [1m[35m (9.0ms)[0m  COMMIT

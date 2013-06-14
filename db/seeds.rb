@@ -10,14 +10,20 @@ end
 # Modell.kopplingstabell = [annanModell.id] -- Första grejen man vill lägga till
 # Modell.kopplingstabell = Model.kopplingstabell < annanModell.id
 # HUR LÄTT SOM HELST JU.. (noobs...)
+#@recipe.ingredient_ids = [@savedIngredient.id]
 
-Recipe.delete_all
-@recipe = Recipe.create(:title => 'Kaka', :description => 'Lorem ipsum dolor sit amet.', :temperature => 225, :time => 25)
-@recipe2 = Recipe.create(:title => 'Lasagne', :description => 'Lorem ipsum dolor sit amet.', :temperature => 225, :time => 25)
+# RecipeIngredient.delete_all
 
-Ingredient.delete_all
-['Mööölk', 'flour', 'morot'].each do |ingredient|
-	@savedIngredient = Ingredient.create(:ingredient => ingredient)
-	@recipe.recipe_ingredients = @recipe.recipe_ingredients < @savedIngredient.id
-	@recipe2.recipe_ingredients = @recipe2.recipe_ingredients < @savedIngredient.id
-end
+# Recipe.delete_all
+# @recipe = Recipe.create(:title => 'Kaka', :description => 'Lorem ipsum dolor sit amet.', :temperature => 225, :time => 25)
+# @recipe2 = Recipe.create(:title => 'Lasagne', :description => 'Lorem ipsum dolor sit amet.', :temperature => 225, :time => 25)
+
+# Ingredient.delete_all
+# ['Mööölk', 'flour', 'morot'].each do |ingredient|
+# 	@savedIngredient = Ingredient.create(:ingredient => ingredient)
+# 	@recipe.ingredient_ids = @recipe.ingredient_ids << @savedIngredient.id
+# 	@recipe2.ingredient_ids = @recipe.ingredient_ids << @savedIngredient.id
+# end
+
+@recipe = Recipe.find(34)
+@recipe.destroy
