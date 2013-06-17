@@ -3,7 +3,7 @@ Foodz2::Application.routes.draw do
 
   root :to => "recipe#index"
 
-  match ':controller(/:action(/:id))(.:format)'
+  match "/recipe/(:id)" => "recipe#show"
  
  # DON'T MATCH EVERYTHING FOOL!
 

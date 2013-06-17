@@ -1,10 +1,13 @@
 class RecipeController < ApplicationController
+  respond_to :json
+
   def index
   end
 
-  def show
-    test = {title: 'My favourite recipe', id: params[:id] } 
-    render :json => @recipe = test.to_json
+  def show 
+    @recipe = Recipe.find(params[:id])
+    
+    respond_with(@recipe)
   end
 
   def create

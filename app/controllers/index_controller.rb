@@ -1,8 +1,10 @@
 class IndexController < ApplicationController
   def index
-  end
+  	
+  	@test = request.original_fullpath()
+  	test.split('/')
+  	test[0]
+  	# @test = url[:controller]
 
-  def halloj
-  	puts 'halloj'
   end
 end

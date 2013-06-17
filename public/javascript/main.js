@@ -1,6 +1,4 @@
-(function(){require.config({
-
-	urlArgs: 'bust=' + (new Date()).getTime(),
+(function(){require.config({	
 
 	paths: {
 		'jquery' : '//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.1/jquery.min',
@@ -23,8 +21,10 @@
 
 	});
 
-	require(['env/router'], function(Router){
-
-
-	});
+	require([
+		'env/router',
+		'Plugins/backbone.model.extensions',
+		'Plugins/backbone.view.extensions',
+		'Plugins/backbone.collection.extensions'
+		]);
 }());

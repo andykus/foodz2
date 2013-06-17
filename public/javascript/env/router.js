@@ -1,10 +1,9 @@
-define(['backbone', 'Foodz'], function(Backbone, Foodz){
+define(['backbone'], function(Backbone){
 
 	var Router = Backbone.Router.extend({
 
 	routes:{
-	'':'home',	
-	'otherview': 'otherview'
+	'recipe':'recipe',		
 	}
 
 	});
@@ -15,7 +14,7 @@ define(['backbone', 'Foodz'], function(Backbone, Foodz){
 		
 		require(['views/' + section + '.view'], function (View) {
 
-			View.trigger('load');
+			View.trigger('load', 35);
 		});
 
 	});

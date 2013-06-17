@@ -1,4 +1,4 @@
-define(['backbone', 'models/recipe'], function(Backbone, recipeModel){
+define(['backbone', 'models/recipe.model'], function(Backbone, recipeModel){
 
 	var RecipeView = Backbone.View.extend({
 
@@ -6,14 +6,25 @@ define(['backbone', 'models/recipe'], function(Backbone, recipeModel){
 		model: recipeModel,
 
 		initialize:function(){
+			_.templateSettings = {
+			    interpolate: /\{\{\=(.+?)\}\}/g,
+			    evaluate: /\{\{(.+?)\}\}/g
+			};
 			this.on('load', this.loadView, this);
-			this.template = _.template($('#recipe-template').html(), {});
+			this.template = _.template($('#recipe').html());
+			this.model.on('fetched', this.render, this);
 		},
 
-		loadView: function(){
-			console.log('loaded');
-			this.$el.html(this.template);			
+		loadView: function(id){			
+			
+			recipeModel.set('id', id)		
 			recipeModel.fetch();
+		},
+
+		render:function(){
+			var content = this.template({hej: 'tja'});
+			$(this.el).html(content);
+
 		}
 	});
 
