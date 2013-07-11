@@ -1,5 +1,6 @@
-define(['backbone'], function(Backbone){
+define(['backbone', 'plugins/plugin.form'], function(Backbone, Form){
 
-	// TODO add something
+	Backbone.View.prototype.Form = Form;
+
 	return Backbone.View;
 });

@@ -5,23 +5,6 @@ Foodz2::Application.routes.draw do
 
   match "/recipe/(:id)" => "recipe#show"
  
- # DON'T MATCH EVERYTHING FOOL!
-
-  # TODO create model with many to many relations http://stackoverflow.com/questions/6599893/how-to-insert-into-a-many-to-many-table-using-rails-3-active-record-from-the-con
-
- 
-  # get "recipe/show/:id"
-
-  # get "recipe/index"
-
-  # post "recipe/create"
-
-  # put "recipe/update"
-
-  # delete "recipe/delete"
-
-
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

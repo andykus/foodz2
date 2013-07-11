@@ -1,0 +1,23 @@
+{{#if label}}<label for="{{formName}}-{{property}}" value="{{label}}"/>{{/if}}		
+<input 
+id="{{formName}}-{{property}}" 
+type="{{type}}" 
+data-model-property="{{property}}" 
+{{#if niceName}}
+	data-model-nice-name="{{niceName}}"
+{{/if}} 
+{{#if dataFormatter}}
+	data-formatter="{{dataFormatter}}"
+{{/if}} 		
+{{#if dataType}}
+	data-type="{{dataType}}"
+{{/if}} 
+{{#if placeHolder}}
+	placeholder="{{placeHolder}}"
+{{/if}}
+maxlength={{#if maxLength}}{{maxLength}}{{else}} 200 {{/if}} 
+{{#if classes}}
+	class="{{classes}}"
+{{/if}} 
+{{#if name}}name="{{name}}"{{/if}}
+/>

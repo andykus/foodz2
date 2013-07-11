@@ -5,26 +5,31 @@ define(['backbone', 'models/recipe.model'], function(Backbone, recipeModel){
 		el: "#content",
 		model: recipeModel,
 
-		initialize:function(){
-			_.templateSettings = {
-			    interpolate: /\{\{\=(.+?)\}\}/g,
-			    evaluate: /\{\{(.+?)\}\}/g
-			};
+		initialize: function(){
 			this.on('load', this.loadView, this);
-			this.template = _.template($('#recipe').html());
 			this.model.on('fetched', this.render, this);
 		},
 
-		loadView: function(id){			
-			
+		loadView: function(id){		
+			var form = new this.Form({fields: [
+				{
+					property: 'title',  // Model property name
+					niceName: 'Titeln',
+					label: 'Titel',
+					type: 'text', // Input type
+					placeHolder: 'Mitt fält',
+					maxLength: 200,
+					dataType: 'string',
+					dataFormatter: '',
+					classes: ['foodz']
+				}
+				]});		
+
 			recipeModel.set('id', id)		
-			recipeModel.fetch();
+			recipeModel._fetch();
 		},
 
-		render:function(){
-			var content = this.template({hej: 'tja'});
-			$(this.el).html(content);
-
+		render: function(){
 		}
 	});
 
