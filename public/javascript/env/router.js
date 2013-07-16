@@ -2,9 +2,11 @@ define(['backbone'], function(Backbone){
 
 	var Router = Backbone.Router.extend({
 
-	routes:{
-	'recipe(/:id)':'recipe',		
-	}
+		routes:{
+			'recipe(/:id)':'recipe',		
+			'ingredient(/:id)':'ingredient',		
+			'unit(/:id)':'unit',		
+		}
 
 	});
 
@@ -12,12 +14,12 @@ define(['backbone'], function(Backbone){
 
 	router.on('route', function (section, params) {
 		
-		require(['views/' + section + '.view'], function (View) {
+		require(['views/' + section + '.view'], function (view) {		
 
 			if(params[0]){
-				View.trigger('load', params[0]);				
+				view.trigger('load', params[0]);				
 			}	else{
-				View.trigger('load');
+				view.trigger('load');
 			}
 		});
 		
@@ -25,6 +27,6 @@ define(['backbone'], function(Backbone){
 
 	Backbone.history.start();
 
-	return Router;
+	return router;
 
 });

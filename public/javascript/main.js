@@ -7,6 +7,7 @@
 		'backbone'  : '//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min',
 		'backbone-relational' : '//cdnjs.cloudflare.com/ajax/libs/backbone-relational/0.8.5/backbone-relational',
 		'handlebars' : 'vendors/handlebars'
+
 	}, 
 
 	shim: {

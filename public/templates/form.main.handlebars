@@ -1,1 +1,5 @@
-<form id="{{formName}}" {{#if classes}}class="{{classes}}"{{/if}}>{{>content}}</form>
+<form id="{{formName}}" {{#if classes}}class="{{classes}}"{{/if}}>
+{{#formFields this}}
+	
+{{/formFields}}
+</form>
