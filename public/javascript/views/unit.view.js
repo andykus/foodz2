@@ -1,19 +1,20 @@
-define(['backbone', 'models/unit.model'], function(Backbone, unitModel){
+define(['backbone', 'models/unit.model', 'text!../../templates/view.unit.handlebars'], function(Backbone, unitModel, template){
 
 	var UnitView = Backbone.View.extend({
 
 		id: "unit-view",
 		model: unitModel,
+		template: template, 
 
 		initialize: function(){
 			this.on('load', this.loadView, this);
-			this.model.on('fetched', this.render, this);
+			this.model.on('fetched', this.render, this);			
 		},
 
-		loadView: function(id){		
+		waitThereIsMore: function(id){		
 			var form = new this.Form({
 				formName: 'unit-form',
-				$el: this.$el,
+				$el: this.$el.find('.unit-form-wrapper'),
 				fields: [
 				[
 					{
@@ -33,10 +34,9 @@ define(['backbone', 'models/unit.model'], function(Backbone, unitModel){
 						value: 'Spara enhet'
 					}
 				]
-				]}, this.model);		
-		},
+				]}, this.model);
 
-		render: function(){
+				return this;		
 		},
 
 		events:{
@@ -53,5 +53,5 @@ define(['backbone', 'models/unit.model'], function(Backbone, unitModel){
 		}
 	});
 
-	return new UnitView();
+	return UnitView;
 });

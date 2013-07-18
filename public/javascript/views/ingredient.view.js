@@ -1,26 +1,27 @@
-define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientModel){
+define(['backbone', 'models/ingredient.model', 'text!../../templates/view.ingredient.handlebars'], function(Backbone, ingredientModel, template){
 
 	var IngredientView = Backbone.View.extend({
 
 		id: "ingredient-view",
 		model: ingredientModel,
+		template: template,
 
 		initialize: function(){
 			this.on('load', this.loadView, this);
-			this.model.on('fetched', this.render, this);
+			this.model.on('fetched', this.render, this);			
 		},
 
-		loadView: function(id){		
+		waitThereIsMore: function(id){					
 			var form = new this.Form({
 				formName: 'ingredient-form',
-				$el: this.$el,
+				$el: this.$el.find('.ingredient-form-wrapper'),
 				fields: [
 				[
 					{
 						property: 'ingredient',  // Model property name
-						label: 'Namn',
+						label: 'Ny ingrediens',
 						type: 'text', // Input type
-						placeHolder: 'Ingrediens',
+						placeHolder: 'entrecote, mjöl, mjölk etc.',
 						maxLength: 200,
 					}
 				],
@@ -32,11 +33,10 @@ define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientMod
 					}
 				]
 				]}, this.model);		
+
+			return this;
 		},
 
-		render: function(){
-			// TODO get some template stuffs
-		},
 
 		events: {
 			'click .js-ingredient-form-save' : 'saveIngredient'
@@ -44,8 +44,10 @@ define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientMod
 
 		saveIngredient: function(){
 			this.model._save();
+
+			return this;
 		}
 	});
 
-	return new IngredientView();
+	return IngredientView;
 });

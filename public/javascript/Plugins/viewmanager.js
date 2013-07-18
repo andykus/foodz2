@@ -13,11 +13,13 @@ define(['backbone'], function(Backbone){
 		};
 
 		var openView = function(view){
-			view.render();
-			$(el).html(view.el);
-			view.delegateEvents();
-			if(view.loadView){
-				view.loadView();
+			view.once('rendered', appendViewToDom, this);		
+			view.loadView(); 
+		};
+		
+		var appendViewToDom = function(view){
+			if(currentView.cid === view.cid){ // TODO not sure about this. I was thinking that.. if someone goes bananas on the links you prob want to load the latest view. 
+				$(el).html(view.el);			
 			}
 		};
 

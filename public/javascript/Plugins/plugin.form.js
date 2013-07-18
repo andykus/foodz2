@@ -9,28 +9,30 @@ define(['text!../../templates/form.main.handlebars','text!../../templates/form.f
 
 /**
  * Binds the changes on the form to the model
- * @param  {[type]} $el
- * @param  {[type]} model
- * @return {[type]}
+ * @param  {Object} $el JQuery object representing the container of the form.
+ * @param  {Object} model The model to bind the form to
+ * @return {Object} Returns the plugin itself for chaining.
  */
 FormPlugin.prototype.bindForm = function($el, model){
-	$el.find('form :input').each(function(){			
-		var property;
-		var $field;
-		
+	var property;
+	var $field;
+
+	$el.find('form :input').each(function(){					
 		$(this).change(function(){
 			$field = $(this);
 			property = $field.attr('id').split('-').pop();
 			model.set(property, $field.val());
 		});
 	});
+
+	return this;
 },
 
 
 /**
  * 
- * @param  {[type]} options
- * @return {[type]}
+ * @param  {Object} options Object containing form settings
+ * @return {Object} Returns the plugin itself for chaining.
  */
 FormPlugin.prototype.generateForm = function(options){
 
@@ -70,6 +72,8 @@ FormPlugin.prototype.generateForm = function(options){
 	form = Handlebars.compile(formTemplate);
 	formHtml = form(options);
 	options.$el.html(formHtml);
+
+	return this;
 };
 
 return FormPlugin;
