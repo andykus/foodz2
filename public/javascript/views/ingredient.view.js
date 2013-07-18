@@ -2,7 +2,7 @@ define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientMod
 
 	var IngredientView = Backbone.View.extend({
 
-		el: "#ingredient-view",
+		id: "ingredient-view",
 		model: ingredientModel,
 
 		initialize: function(){
@@ -13,7 +13,7 @@ define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientMod
 		loadView: function(id){		
 			var form = new this.Form({
 				formName: 'ingredient-form',
-				$el: this.$el.find('#ingredient-form-wrapper'),
+				$el: this.$el,
 				fields: [
 				[
 					{
@@ -35,6 +35,7 @@ define(['backbone', 'models/ingredient.model'], function(Backbone, ingredientMod
 		},
 
 		render: function(){
+			// TODO get some template stuffs
 		},
 
 		events: {

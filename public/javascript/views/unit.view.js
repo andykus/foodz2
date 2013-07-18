@@ -2,7 +2,7 @@ define(['backbone', 'models/unit.model'], function(Backbone, unitModel){
 
 	var UnitView = Backbone.View.extend({
 
-		el: "#unit-view",
+		id: "unit-view",
 		model: unitModel,
 
 		initialize: function(){
@@ -13,15 +13,15 @@ define(['backbone', 'models/unit.model'], function(Backbone, unitModel){
 		loadView: function(id){		
 			var form = new this.Form({
 				formName: 'unit-form',
-				$el: this.$el.find('#unit-form-wrapper'),
+				$el: this.$el,
 				fields: [
 				[
 					{
 						property: 'unit',  // Model property name
 						niceName: 'Enheten',
-						label: 'Enhet',
+						label: 'Ange en enhet',
 						type: 'text', // Input type
-						placeHolder: 'Enhet',
+						placeHolder: 'deciliter, liter m.m.',
 						maxLength: 3,
 						dataType: 'string',											
 					}
