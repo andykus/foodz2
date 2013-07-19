@@ -12,7 +12,7 @@
 
 	shim: {
 		'underscore': {
-			// Exports is name used as the first parameter in the require call
+			// Exports is the name used as the first parameter in the require call
 			exports: '_'
 		},
 		'backbone-relational':{

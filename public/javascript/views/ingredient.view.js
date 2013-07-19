@@ -6,8 +6,7 @@ define(['backbone', 'models/ingredient.model', 'text!../../templates/view.ingred
 		model: ingredientModel,
 		template: template,
 
-		initialize: function(){
-			this.on('load', this.loadView, this);
+		initialize: function(){		
 			this.model.on('fetched', this.render, this);			
 		},
 

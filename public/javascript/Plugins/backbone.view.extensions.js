@@ -51,7 +51,7 @@ define(['backbone', 'handlebars', 'plugins/plugin.form', 'env/router'], function
 	  * @return {Object} Returns the view itself for chaining.
 	  */
 	 Backbone.View.prototype.render = function(){
- 		var compiledTemplate = Handlebars.compile(this.template);
+ 		var compiledTemplate = Handlebars.compile(this.template); 
 
  		this.$el.html(compiledTemplate(this.model || {}));	 
  		if(this.waitThereIsMore){

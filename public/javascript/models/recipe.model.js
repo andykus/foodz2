@@ -1,6 +1,17 @@
-define(['backbone'], function(Backbone){
+define(['backbone', 'models/recipeingredient.model'], function(Backbone, recipeIngredient){
 	
-	var RecipeModel = Backbone.Model.extend({
+	var RecipeModel = Backbone.RelationalModel.extend({
+
+		relations: [{
+			type: Backbone.HasMany, 
+			key: 'recipeIngredients',
+			relatedModel: recipeIngredient,
+			collectionType: 'RecipeIngredientCollection',
+			reverseRelation: {
+				key: 'recipeId', 
+				includeInJSON: 'id'
+			}
+		}],
 
 		url: function(){
 			return this.get('id') ? 'recipe/'  + this.get('id') : 'recipe';

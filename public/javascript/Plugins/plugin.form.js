@@ -1,4 +1,4 @@
-define(['text!../../templates/form.main.handlebars','text!../../templates/form.field.handlebars', 'handlebars'], function(formTemplate, formFieldTemplate, Handlebars){
+define(['text!../../templates/form.main.handlebars','text!../../templates/form.field.handlebars', 'text!../../templates/form.textarea.handlebars', 'handlebars'], function(formTemplate, formFieldTemplate, textarea, Handlebars){
 
 	var FormPlugin = function(options, model){
 		this.generateForm(options);
@@ -47,7 +47,8 @@ FormPlugin.prototype.generateForm = function(options){
 			var formHtml;
 			var templateMap = {
 				defaultTemplate: formFieldTemplate, 
-				select: ''
+				select: '',
+				textarea: textarea
 			};
 
 			for(var i = 0; i < fields.length; i++){	// Loop field rows

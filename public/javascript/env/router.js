@@ -32,7 +32,7 @@ define(['backbone'], function(Backbone){
 			require(['views/' + viewName + '.view', 'plugins/viewmanager'], function (View, viewManager) {		
 				view = new View(); // TODO Tell Andreas that the events where removed when the remove() function runned and maybe it's good that the contructor runs
 				// and sets all events again each time the view is loaded 
-				viewManager.show(view);
+				viewManager.show(view, id);
 			});
 			
 		});

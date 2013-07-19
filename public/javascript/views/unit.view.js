@@ -6,8 +6,7 @@ define(['backbone', 'models/unit.model', 'text!../../templates/view.unit.handleb
 		model: unitModel,
 		template: template, 
 
-		initialize: function(){
-			this.on('load', this.loadView, this);
+		initialize: function(){			
 			this.model.on('fetched', this.render, this);			
 		},
 

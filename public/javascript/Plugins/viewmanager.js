@@ -12,9 +12,9 @@ define(['backbone'], function(Backbone){
 			}
 		};
 
-		var openView = function(view){
+		var openView = function(view, id){
 			view.once('rendered', appendViewToDom, this);		
-			view.loadView(); 
+			view.loadView(id); 
 		};
 		
 		var appendViewToDom = function(view){
@@ -23,10 +23,10 @@ define(['backbone'], function(Backbone){
 			}
 		};
 
-		view.show = function(view){
+		view.show = function(view, id){
 			closeView(currentView);
 			currentView = view;
-			openView(currentView);
+			openView(currentView, id);
 		};
 
 		return view;
