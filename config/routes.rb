@@ -1,6 +1,7 @@
 Foodz2::Application.routes.draw do  
   root :to => "recipe#index"
 
+  match "/recipe" => "recipe#create"
   match "/recipe/(:id)" => "recipe#show"
   match "/ingredient" => "ingredient#create"
   match "/unit" => "unit#create"

@@ -6,11 +6,12 @@ class RecipeController < ApplicationController
 
   def show 
     @recipe = Recipe.find(params[:id])
-    
     respond_with(@recipe)
   end
 
-  def create
+  def create    
+    @recipe = Recipe.create(params[:recipe])
+    respond_with(@recipe)
   end
 
   def update

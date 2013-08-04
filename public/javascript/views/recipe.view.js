@@ -65,12 +65,20 @@ define(['backbone', 'models/recipe.model', 'text!../../templates/view.recipe.han
 					[
 					{
 						type: 'button', // Input type
-						classes: ['foodz-btn'],
+						classes: ['js-recipe-save'],
 						value: 'Spara'
 					}
 					]
-					]});		
-}
+					]}, this.model);		
+},
+	
+	save: function(){
+		this.model.save();
+	},
+
+	events: {
+		'click .js-recipe-save': 'save'
+	}
 });
 
 return RecipeView;
