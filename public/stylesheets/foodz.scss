@@ -1,0 +1,20 @@
+@import 'bootstrap.css';
+
+$themeColor1: #999999; 
+
+/* Overridden bootstrap */
+.header h3 { line-height: 35px; }
+.btn { height: 30px; padding: 2px 12px; }
+
+.form-inline > input, button { margin-left: 10px; }
+
+/* Common classes */
+.right { float: right; }
+.left { float: left; }
+.clear { clear: both; }
+.vertical-center { vertical-align: middle; }
+.spacer { @extend .clear; height: 15px; }
+.border-bottom { border-bottom: 1px solid $themeColor1; }
+
+
+	

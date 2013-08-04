@@ -1,0 +1,30 @@
+@import url(bootstrap.css);
+/* Overridden bootstrap */
+.header h3 {
+  line-height: 35px; }
+
+.btn {
+  height: 30px;
+  padding: 2px 12px; }
+
+.form-inline > input, button {
+  margin-left: 10px; }
+
+/* Common classes */
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+.clear, .spacer {
+  clear: both; }
+
+.vertical-center {
+  vertical-align: middle; }
+
+.spacer {
+  height: 15px; }
+
+.border-bottom {
+  border-bottom: 1px solid #999999; }
